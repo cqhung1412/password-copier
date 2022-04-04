@@ -10,16 +10,8 @@ const { Title } = Typography
 
 class App extends Component {
   state = {
-    prefix: '', postfix: ''
-  };
-
-  componentDidMount() {
-    const prefix = localStorage.getItem('prefix');
-    const postfix = localStorage.getItem('postfix');
-    this.setState({
-      prefix: prefix || '',
-      postfix: postfix || ''
-    });
+    prefix: localStorage.getItem('prefix'), 
+    postfix: localStorage.getItem('postfix')
   }
 
   onFinish = (values) => {

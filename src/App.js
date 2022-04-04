@@ -67,10 +67,10 @@ class App extends Component {
               onFinish={this.onFinish}
             >
               <Form.Item name='prefix'>
-                <Input placeholder='Prefix' />
+                <Input.Password placeholder='Prefix' />
               </Form.Item>
               <Form.Item name='postfix'>
-                <Input placeholder='Postfix' />
+                <Input.Password placeholder='Postfix' />
               </Form.Item>
               <Form.Item style={{ width: '100%' }}>
                 <Button type="primary" htmlType="submit" style={{ width: '100%' }}>

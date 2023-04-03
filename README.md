@@ -2,7 +2,7 @@
 
 ## Introduction
 - OpenVPN for VNG employees requires a TOTP and prefix/postfix to login
-- This web app uses authenticator to extract the TOTP and append with the prefix/postfix to create a full password string to Ctrl+V on OpenVPN
+- This web app uses [authenticator](https://www.npmjs.com/package/authenticator) to extract the TOTP and append with the prefix/postfix to create a full password string to Ctrl+V on OpenVPN
 - The key and prefix/postfix are stored in local storage, not on any third-party storage
 
 ## Installation guide
